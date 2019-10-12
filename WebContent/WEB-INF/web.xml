@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+    
+<!-- 
+ Configure Servlet
+  /home
+  <servlet>
+  	<servlet-name>xyz</servlet-name>
+  	Must be fully-qualified class name, package included
+  	<servlet-class>com.collabera.demo.MyServlet</servlet-class>
+  	Servlet Config, different object for each servlet
+  	<init-param>
+  		<param-name>name</param-name>
+  		<param-value>Sonya</param-value>
+  	</init-param>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>xyz</servlet-name>
+  	Path in URL that will use that Servlet
+  	<url-pattern>/home</url-pattern>
+  </servlet-mapping>
+  
+  Servlet Context, shared between all servlets
+  <context-param>
+  	<param-name>name</param-name>
+  	<param-value>Salki</param-value>
+  </context-param>
+  
+  <context-param>
+  	<param-name>Phone</param-name>
+  	<param-value>Android</param-value>
+  </context-param>
+  
+  
+  /add
+  <servlet>
+  	<servlet-name>abc</servlet-name>
+  	<servlet-class>com.collabera.demo.AddServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>abc</servlet-name>
+  	<url-pattern>/add</url-pattern>
+  </servlet-mapping>
+ 
+  /sq
+   <servlet>
+  	<servlet-name>pqr</servlet-name>
+  	<servlet-class>com.collabera.demo.SquareServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>pqr</servlet-name>
+  	<url-pattern>/sq</url-pattern>
+  </servlet-mapping>  --> 
+  
+</web-app>
